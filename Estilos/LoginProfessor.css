@@ -37,18 +37,18 @@
     color: #333;
   }
   
-  p {
+  .semconta-loginprofessor {
     font-size: 14px;
     color: #888;
     margin-bottom: 20px;
   }
   
-  p a {
+  .semconta-loginprofessor a {
     color: #6a11cb;
     text-decoration: none;
   }
   
-  p a:hover {
+  .semconta-loginprofessor a:hover {
     text-decoration: underline;
   }
   
