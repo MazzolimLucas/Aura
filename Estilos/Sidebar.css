@@ -1,0 +1,61 @@
+.sidebar{
+    position: absolute;
+    height: 120%;
+    width: 20%;
+    background-color: rgb(39, 37, 37);
+    color: white;
+}
+
+.sidebar h2 {
+    text-align: center;
+}
+  
+.user-info img {
+    border-radius: 50%;
+}
+  
+.user-info h4 {
+    margin: 10px 0 5px;
+}
+
+.userInfo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.userInfo img{
+    margin-top: 15px;
+}
+
+.sidebarTitle{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: rgb(32, 31, 31);
+}
+
+.sidebarTitle p{
+    margin-left: 15px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.sidebarNavigation{
+    width: 100%;
+}
+
+.paginaAlunosLink{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-top: 20px;
+    display: block;
+}
+
+.paginaAlunos{
+    height: 100%;    
+}
+
+.primeiroLink{
+    margin-top: 10px;
+}
