@@ -29,7 +29,8 @@
 .logo{
     height: 100%;
     width: 20%;
-    background-color: #ac0303;   
+    background-color: #ac0303; 
+    cursor:pointer;  
 }
 
 .opcoes{
