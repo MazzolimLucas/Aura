@@ -1,12 +1,19 @@
-import { Link } from 'react-router-dom';
+import { Link, Outlet, Route, Routes } from 'react-router-dom';
 import '../Estilos/Home.css';
+import Header from '../Componentes reutilizáveis/Header'
+import Sidebar from '../Componentes reutilizáveis/Sidebar'
+import TeladeConsulta from './TeladeConsulta';
 
-function App() {
-  return (
+function Home() {
+  
+return (
     <div className="Home">
-      <Link to='/Login Professor'>Login Professor</Link>
+       <Header/>
+       <Outlet/>
+       <Sidebar/>
     </div>
   );
 }
 
-export default App;
+export default Home;
+
